@@ -2,10 +2,10 @@ const { withNativeFederation, shareAll } = require('@angular-architects/native-f
 
 module.exports = withNativeFederation({
 
-  name: 'remote',
+  name: 'remote2',
 
   exposes: {
-    './remoteModule': './projects/remote/src/app/remote-main/remote-main.module.ts',
+    './remote2Module': './projects/remote2/src/app/remote-main/remote-main.module.ts',
   },
 
   shared: {
