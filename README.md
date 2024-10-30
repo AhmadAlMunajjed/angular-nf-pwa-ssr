@@ -26,3 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+# Run on a local server
+- shell: `npx servor dist\shell\browser index.html 4200 --browse`
+- remote: `npx servor dist\remote\browser index.html 4201 --browse`
+- remote 2: `npx servor dist\remote2\browser index.html 4202 --browse`
+
