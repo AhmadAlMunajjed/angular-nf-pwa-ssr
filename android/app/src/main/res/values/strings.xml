@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Shell App</string>
+    <string name="title_activity_main">Shell App</string>
+    <string name="package_name">com.gettajer.shell</string>
+    <string name="custom_url_scheme">com.gettajer.shell</string>
+</resources>
