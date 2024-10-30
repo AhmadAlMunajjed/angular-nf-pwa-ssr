@@ -19,6 +19,10 @@ const routes: Routes = [
     loadChildren: () =>
       loadRemoteModule('remote2', './remote2Module').then((m) => m.RemoteMainModule)
   },
+  {
+    path: 'remote3',
+    loadComponent: () => loadRemoteModule('remote3', './Component').then((m) => m.AppComponent),
+  },
 ]
 
 @NgModule({
