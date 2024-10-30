@@ -1,5 +1,3 @@
 {
-	"remote": "https://ng-nf-remote.pages.dev/remoteEntry.json",
-	"remote2": "https://ng-nf-remote2.pages.dev/remoteEntry.json",
-	"remote3": "https://ng-nf-remote3.pages.dev/remoteEntry.json"
+	"remote3": "https://ng-nf-remote.pages.dev//remoteEntry.json"
 }

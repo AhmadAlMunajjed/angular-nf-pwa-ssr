@@ -8,11 +8,6 @@ export const routes: Routes = [
         component: HomeComponent,
         pathMatch: 'full',
     },
-    // {
-    //     path: 'remote',
-    //     loadChildren: () =>
-    //         loadRemoteModule('remote', './remoteModule').then((m) => m.RemoteMainModule)
-    // },
     {
         path: 'remote3',
         loadChildren: () => loadRemoteModule('remote3', './routes').then((m) => m.routes),
